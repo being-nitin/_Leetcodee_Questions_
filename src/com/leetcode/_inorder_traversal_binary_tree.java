@@ -30,6 +30,7 @@ public class _inorder_traversal_binary_tree {
             this.val = val;
         }
     }
+    // have taken the list before function , because in the function we are returning an arraylist.
     public static java.util.ArrayList<java.lang.Integer> inorderTraversal(Node root){
         java.util.ArrayList<java.lang.Integer> lists = new ArrayList<Integer>();
         if(root!=null) {
