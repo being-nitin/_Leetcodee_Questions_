@@ -17,7 +17,7 @@ public class Main {
     Input: nums = [2,0,1]
     Output: [0,1,2]
             */
-
+    // taken the condition of bubble sort
     public static void sort(int[] nums) {
         for (int i = 0; i < nums.length - 1; i++) {
             for (int j = i + 1; j < nums.length; j++) {
